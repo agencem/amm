@@ -12,7 +12,8 @@
 	width: 450px;
 }
 .image{
-width:100px;
+width:100%;
+	height:auto;
 }
 
 .navigation a{
@@ -45,7 +46,7 @@ width:100px;
 
 
 .ig{
-	width: 100px;
+	width: 200px;
 }
 .content{
 	background-image: url(banner.png);
@@ -99,8 +100,9 @@ width:100px;
 	color: green;
 }
 .content h1{
-	font-size: 40px;
+	font-size: 50px;
 	color: black;
+	font-weight:bold;
 }
 .content p{
 	font-size: 20px;
@@ -122,6 +124,7 @@ cursor: pointer;
 	margin-top: 30px;
 	margin-left: 80px;
 	color: black;
+	font-weight:bold;
 }
 .sectionproduits{
 	padding: 40px 5%;
@@ -136,7 +139,7 @@ cursor: pointer;
        transform: translate(-10px);
  }
 .produits .carte{
-	width: 300px;
+	width: 100%;
 	background: #f5f5f5;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 	border-radius: 10px;
